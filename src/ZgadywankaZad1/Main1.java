@@ -25,7 +25,8 @@ public class Main1 {
         int count = 0;
         Random rand = new Random();
         System.out.print("Zgadnij jaka liczbę wylosował komputer: ");
-        number = rand.nextInt(100)+1;
+        number = rand.nextInt(100) + 1;
+
         while(number != shot){
             shot = scr.nextInt();
             count++;
